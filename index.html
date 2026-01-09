@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Blog — Home</title>
+	<meta name="description" content="Personal blog about tech, tutorials, and projects.">
+	<meta name="author" content="Your Name">
+	<meta name="keywords" content="blog, web development, tutorials, projects">
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="My Blog — Home">
+	<meta property="og:description" content="Personal blog about tech, tutorials, and projects.">
+	<meta property="og:type" content="website">
+
+	<link rel="stylesheet" href="style.css">
+	<script defer src="script.js"></script>
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="site-logo" href="/">My Blog</a>
+			<nav class="site-nav" aria-label="Main navigation">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="container">
+				<h1>Welcome to My Blog</h1>
+				<p>Thoughts, guides, and projects about web development and more.</p>
+				<a class="btn" href="#blog">Read Latest</a>
+			</div>
+		</section>
+
+		<section id="blog" class="container grid">
+			<div class="content">
+				<h2>Latest Posts</h2>
+
+				<article class="post-card">
+					<h3><a href="#">Getting started with modern HTML</a></h3>
+					<p class="meta">Jan 1, 2026 • 5 min read</p>
+					<p>Quick intro and best practices for building accessible, semantic HTML5 pages.</p>
+					<a class="read-more" href="#">Read more →</a>
+				</article>
+
+				<article class="post-card">
+					<h3><a href="#">A small CSS reset that works</a></h3>
+					<p class="meta">Dec 12, 2025 • 3 min read</p>
+					<p>Simple CSS reset snippet and explanation to start every project consistently.</p>
+					<a class="read-more" href="#">Read more →</a>
+				</article>
+
+			</div>
+
+			<aside class="sidebar">
+				<div class="widget">
+					<h4>Search</h4>
+					<form action="#" role="search">
+						<label for="search" class="visually-hidden">Search posts</label>
+						<input id="search" name="q" placeholder="Search posts">
+						<button type="submit">Search</button>
+					</form>
+				</div>
+
+				<div class="widget">
+					<h4>Subscribe</h4>
+					<form id="subscribe" action="#">
+						<label for="email" class="visually-hidden">Email</label>
+						<input id="email" type="email" placeholder="you@example.com" required>
+						<button type="submit">Subscribe</button>
+					</form>
+				</div>
+
+				<div class="widget">
+					<h4>Categories</h4>
+					<ul>
+						<li><a href="#">Web Development</a></li>
+						<li><a href="#">Tutorials</a></li>
+						<li><a href="#">Projects</a></li>
+					</ul>
+				</div>
+			</aside>
+		</section>
+
+		<section id="about" class="container about">
+			<h2>About Me</h2>
+			<p>Hi — I'm Daniel Zhang. I write about building things on the web, best practices, and small projects.</p>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p>© 2026 Daniel Zhang — <a href="#contact">Contact</a></p>
+			<p class="social">
+				<a href="#">Twitter</a> · <a href="#">GitHub</a>
+			</p>
+		</div>
+	</footer>
+
+</body>
+</html>
