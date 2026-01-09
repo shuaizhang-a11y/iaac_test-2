@@ -14,4 +14,10 @@ document.addEventListener('DOMContentLoaded', function(){
       subscribe.reset();
     });
   }
+  const emailBtn = document.getElementById('email-open');
+  if(emailBtn){
+    emailBtn.addEventListener('click', function(){
+      window.location.href = 'mailto:shuai.zhang@students.iaac.net';
+    });
+  }
 });
